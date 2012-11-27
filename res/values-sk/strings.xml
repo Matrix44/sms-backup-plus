@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">SMS Backup+</string>
+<resources>
     <string name="donation">Podpora</string>
     <string name="donate">Podporiť</string>
     <string name="donation_item_name">Podpora SMS Backup+</string>
+    <string name="donation_merchant_name">Jan Berkel</string>
+    <string name="donation_recipient">jan.berkel+paypal@gmail.com</string>
+    <string name="donation_item_id">SMSBACKUP+</string>
+    <string name="donation_paypal_app_id">APP-5W503984EF8322449</string>
+    <string name="donation_flattr_thing_id">edabccdf3fac3cc0948200465f520378</string>
+    <string name="app_name">SMS Backup+</string>
     <string name="app_description">Použite GMail účet pre zálohovanie SMS správ. Toto je vylepšená verzia aplikácie SMS Backup od Christopha Studera ktorá podporuje obnovenie SMS späť do telefónu. Je plne spätne kompatibilná s aplikáciou SMS backup.</string>
     <string name="ui_sync_button_label_idle">Zálohovať</string>
+    <string name="ui_sync_button_label_done">Zálohovať</string>
     <string name="ui_sync_button_label_canceling">Zastavujem</string>
-    <string name="ui_sync_button_label_syncing">Zastaviť</string>
     <string name="ui_restore_button_label_idle">Obnoviť</string>
-    <string name="ui_restore_button_label_restoring">Zastaviť</string>
+    <string name="ui_restore_button_label_done">Obnoviť</string>
     <string name="status_idle">Nečinný</string>
     <string name="status_idle_details">Posledná zálohovaná položka: %1$s</string>
     <string name="status_idle_details_never">Nikdy</string>
@@ -36,10 +41,10 @@
     <string name="status_canceled">Zrušené</string>
     <string name="status_canceled_details">%1$d/%2$d položiek úspešne odzálohovaných</string>
     <string name="status_gmail_temp_error">Dočasná chyba Gmail IMAP, opakujte neskôr</string>
+    <string name="ui_settings_label">Nastavenia</string>
     <string name="ui_settings_advanced_label">Pokročilé nastavenia</string>
     <string name="ui_settings_advanced_desc">Nastaviť pokročilé možnosti</string>
     <string name="ui_settings_advanced_server_label">Nastavenia servera</string>
-    <string name="ui_settings_advanced_server_desc">Nemeňte, pokiaľ si nie ste istý!</string>
     <string name="imap_settings">IMAP nastavenia</string>
     <string name="ui_login_label">Užívateľ</string>
     <string name="ui_login_desc">Váš IMAP užívateľ/emailová adresa</string>
@@ -98,8 +103,8 @@
     <string name="ui_auto_backup_incoming_schedule_desc">Kedy zálohovať príchodzie SMS (po prijatí)</string>
     <string name="ui_wifi_only_label">Vyžadovať WiFi</string>
     <string name="ui_wifi_only_desc">Zálohovať/obnovovať len pri pripojení cez WiFi</string>
-    <string name="ui_notifications_label">Oznámenie</string>
-    <string name="ui_notifications_desc">Oznámenie na pozadí</string>
+    <string name="ui_notifications_label">Oznámenia</string>
+    <string name="ui_notifications_desc">Oznámenia na pozadí</string>
     <string name="error_wifi_only_no_connection">Nie je pripojené WiFi</string>
     <string name="error_no_connection">Nie je internetové pripojenie</string>
     <string name="ui_dialog_missing_credentials_title">Prihlasovacie informácie</string>
@@ -108,7 +113,7 @@
     <string name="ui_dialog_invalid_imap_folder_title">Neplatný názov zložky</string>
     <string name="ui_dialog_invalid_imap_folder_msg">Názov zložky nesmie mať medzery (na začiatku alebo na konci)</string>
     <string name="ui_dialog_first_sync_title">Prvá záloha</string>
-    <string name="ui_dialog_first_sync_msg">Zálohovať alebo preskočiťprávy v tomto telefóne?</string>
+    <string name="ui_dialog_first_sync_msg">Zálohovať alebo preskočiť všetky správy v tomto telefóne?</string>
     <string name="ui_dialog_first_sync_msg_batched">"Zálohovať alebo preskočiť všetky správy v tomto telefóne?
 
 Poznámka: Záloha bude rozdelená do dávok po %1$d správach"</string>
@@ -126,7 +131,7 @@ Poznámka: Záloha bude rozdelená do dávok po %1$d správach"</string>
     <string name="ui_sync">Zálohovať</string>
     <string name="ui_skip">Preskočiť</string>
     <string name="err_sync_requires_login_info">Nie je možné zálohovať bez prihlásenia</string>
-    <string name="menu_info">O programe</string>
+    <string name="menu_info">O aplikácii</string>
     <string name="menu_reset">Resetovať</string>
     <string name="ui_dialog_reset_title">Vymazať súčasný stav synchronizácie</string>
     <string name="ui_dialog_reset_message">Chcete vymazať súčasný stav synchronizácie? Stále je možné neskôr zvoliť preskočenie všetkých správ</string>
@@ -224,4 +229,10 @@ Poznámka: Záloha bude rozdelená do dávok po %1$d správach"</string>
     <string name="source_3rd_party">tretia strana</string>
     <string name="source_manual">príručka</string>
     <string name="source_unknown">neznáme</string>
+    <string name="ui_confirm_action_label">Potvrdiť akcie</string>
+    <string name="ui_confirm_action_desc">Opýtať sa pred vykananím zálohy alebo obnovy</string>
+    <string name="ui_dialog_confirm_action_title">Potvrdiť akciu</string>
+    <string name="ui_dialog_confirm_action_msg">Ste si naozaj istí že to chcete urobiť?</string>
+    <string name="loading">Načítavanie...</string>
+    <string name="ssl_error">Chyba SSL</string>
 </resources>
